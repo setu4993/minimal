@@ -18,6 +18,8 @@
 
     <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
     <h5>{{ $.Scratch.Get "subheader" }}</h5>
+    {{ truncate 500 .Content }}
     {{ partial "tags" . }}
+    <a href="{{ .Scratch.Get "link" }}">Read more...</a>
 
 </div>
