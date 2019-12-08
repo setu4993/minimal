@@ -23,12 +23,12 @@ img {
 /* Homepage */
 
 .intro {
-    transform: translateY(22vh);
+    transform: translateY(0vh);
 }
 
 .intro > h1 {
-    color: #212121;
-    font-size: 12vh;
+    color: #ff8c8c;
+    font-size: 6vh;
 }
 
 .intro > h2 {
@@ -105,4 +105,24 @@ a:hover {
 
 footer {
     border-bottom: var(--border-width) solid var(--accent);
+}
+
+.content > p {
+    margin-top: 20px;
+}
+
+.pink-color {
+    color: #ff8c8c;
+}
+
+.medium-font-size {
+    font-size: medium;
+}
+
+.larger-font-size {
+    font-size: larger;
+}
+
+.gray-color {
+    color: #757575;
 }
